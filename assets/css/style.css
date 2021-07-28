@@ -15,7 +15,7 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -47,7 +47,7 @@ header nav ul {
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 /* HEADER / NAVBAR STYLES END */
@@ -58,10 +58,10 @@ header nav ul li a {
 footer {
   background: #fce138;
   padding: 40px 35px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -90,7 +90,6 @@ section {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
-  position: relative;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -99,7 +98,7 @@ section {
 .hero-cta {
   width: 35%;
   text-align: right;
-  margin: 3.5;
+  margin: 3.5%;
   color: #fff;
   font-size: 18px;
   line-height: 1.3;
@@ -173,6 +172,7 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -204,17 +204,6 @@ section {
   color: #024e76;
   font-size: 46px;
   flex: 1 30%;
- }
-
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
-}
-
-.step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  columns: #024e76;
 }
 
 .step-info {
@@ -236,6 +225,18 @@ section {
 .step-text {
   flex: 12;
 }
+
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -249,9 +250,9 @@ section {
 
 .trainer {
   margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
 }
 
 .trainer img {
@@ -318,10 +319,6 @@ section {
   font-style: normal;
 }
 
-.contact-info a {
-  color: #fce138;
-}
-
 .contact-form input, .contact-form textarea {
   border: 1px solid #024e76;
   display: block;
@@ -334,14 +331,17 @@ section {
 }
 
 .contact-form button {
- width: 100%;
- border: none;
- background: #fce138;
- color: #024e76;
- text-align: center;
- padding: 15px 0;
- font-size: 16px;
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+}
 
+.contact-info a {
+  color: #fce138;
 }
 
 
@@ -355,6 +355,7 @@ section {
 .text-right {
   text-align: right;
 }
+
 .flex-row {
   display: flex;
 }
